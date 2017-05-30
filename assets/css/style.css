@@ -1,0 +1,66 @@
+html {
+  height: 100%; }
+  html body {
+    height: 100%;
+    background-color: gray;}
+  html .full-height {
+    height: 100%; }
+  html nav.navbar {
+    margin: 0;
+    height: 200px
+    <!--Color degradado-->
+    background: rgba(0, 0, 69, 1);
+    background: linear-gradient(to bottom, rgba(0,0,69,1) 10%, rgba(0,0,69,1) 40%, rgba(0,5,5,5) 150%);
+    background-position: 80%;
+  }
+  html .white-text {
+    color: white; }
+  html .absolute {
+    position: absolute; }
+  html .front {
+    z-index: 100 !important; }
+  html .white {
+    background-color: transparent; }
+  html .card {
+    width: 400px !important;
+    height: 125px !important;
+    margin: 2px;
+    background-color: rgba(0, 17, 236, 0.4) }
+  html .vertical-center {
+    -ms-display: flex;
+    display: flex;
+    /* alineacion vertical */
+    align-items: center;
+    /* alineacion horizontal */
+    justify-content: center; }
+  html .headerLogo{
+    margin: 0 auto;
+    width: 155px !important;
+    height: 40px !important;
+    background-size: 155px 40px;
+    margin-left: 360%;
+    margin-top: 5%;
+    background-image: url("https://d37z34r4iloq83.cloudfront.net/img/mbl-full-logo.png");
+  }
+  html .tama{
+    font-size: 20px;
+  }
+
+  html .sizeImg {
+    margin: 5px;
+  }
+  html .possSli{
+    position:relative;
+    margin:5px auto;
+    top:0px;
+    left:0px;
+    width:600px;
+    height:300px;
+    overflow:hidden;
+    visibility:hidden;
+  }
+  html .form{
+    width: 400px !important;
+    height: 400px !important;
+    margin: 2px;
+  }
